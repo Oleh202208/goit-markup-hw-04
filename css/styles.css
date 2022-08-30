@@ -63,9 +63,12 @@ list-style: none;
 
 /* Header */
 
+
 .header{
+    
     background-color: var(--background-color);
     border-bottom: 1px solid #ECECEC ;
+
 }
 .logo{
     color:#000000;
@@ -159,9 +162,15 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 .hero{
-    background-color: #2F303A ;
+    max-width: 1600px;
+    height: 600px;
+    /* background-color: #2F303A ; */
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/css_images/hero/Img.jpg);
     text-align: center;
     padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+
 
 }
 
@@ -230,7 +239,28 @@ margin-right: 0;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
+}
+.section-title-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
 
+}
+.icon-satellite::before{
+    background-image: url(../images/css_images/advances/Group1.png);
+}
+.icon-clock::before{
+    background-image: url(../images/css_images/advances/Group2.png);
+}
+.icon-laptop::before{
+    background-image: url(../images/css_images/advances/Group3.png);
+}
+.icon-space::before{
+    background-image: url(../images/css_images/advances/Group4.png);
 
 }
 
@@ -361,6 +391,11 @@ color: var(--accent-color);
 .footer-contacts:focus{
 color: var(--accent-color);
 }
+
+.join{
+    display: flex;
+}
+
 
 /* ================Портфоліо=================*/
 

@@ -1,0 +1,452 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color:#2196F3;
+    --background-color: #FFFFFF;
+    --background-color-second: #F5F4FA;
+    --background-color-futer: #2F303A;
+    --color-logo: #000000;
+
+}
+body{
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+/* 
+#EEEEEE - колір background в картинок в портфоліо
+#FFFFFF60% колір text в футер: тел і милo
+#ECECEC - колір background header в середині
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Утіліти */
+.list{
+    padding: 0;
+    margin: 0;
+list-style: none;
+}
+.linka{
+    text-decoration: none;
+}
+
+/* header-all */
+.header-all{
+    display: flex;
+    align-items: center;
+}
+/* container */
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    /* outline: 4px solid tomato; */
+    /* background-color: blueviolet; */
+}
+
+/* Header */
+
+.header{
+    background-color: var(--background-color);
+    border-bottom: 1px solid #ECECEC ;
+}
+.logo{
+    color:#000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.logo-web{
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+/* site-nav */
+
+.site-nav{
+    display: flex;
+    margin-left: 93px;
+}
+
+
+.site-nav .item + .item{
+    margin-left: 50px;
+}
+
+.site-nav .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+
+}
+
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-link .current{
+color: var(--accent-color);
+}
+
+/* contacts-nav */
+.contacts-nav{
+    display: flex;
+    margin-left: auto;
+}
+.contacts-nav .item + .item{
+    margin-left: 50px;
+}
+
+
+.contacts-nav .link{
+    color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+text-decoration: none;
+}
+.contacts-nav .link:hover, 
+.contacts-nav .link:focus{
+    color: var(--accent-color);
+}
+
+
+/* Замовити послугу Hero */
+/* .title-hero{
+padding-top: 94px;
+} */
+
+.service-title{
+    width: 696px;
+    margin: 0 auto;
+    /* margin-top: 0; */
+    margin-bottom: 30px;
+color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.hero{
+    background-color: #2F303A ;
+    text-align: center;
+    padding: 200px 0;
+
+}
+
+/* button */
+.button{
+    min-width: 216px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+border-radius: 4px;
+padding: 10px 32px;
+color: var(--background-color);
+background-color: var(--accent-color);
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+cursor: pointer;
+
+
+
+}
+
+/* Переваги, advances*/
+
+.section{
+    padding: 94px 0;
+}
+
+.advances-text .item{
+
+    width: 270px;
+    /* gap: 30px; */
+}
+
+.advances-text{
+    display: flex;
+    gap: 30px;
+} 
+.item{
+    /* margin-right: 30px;  */
+} 
+
+.item:last-child{
+margin-right: 0;
+} 
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-title-item{
+    margin-bottom: 10px;
+    color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+
+}
+
+.section-title-advances-text{
+    line-height: 1.71;
+    font-size: 14px;
+    }
+
+/* Чим займаємося */
+.section-affairs{
+    padding-top: 0;
+}
+
+.affairs{
+    display: flex;
+    /* margin-bottom: 94px; */
+}
+.item-affairs{
+    margin-right: 30px;
+}
+.item-affairs:last-child{
+    margin-right: 0;
+}
+
+.section-title{
+    margin: 0;
+    margin-bottom: 50px;
+color:var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.7;
+text-align: center;
+}
+
+/* Команда */
+
+.team{
+    /* padding-bottom: 0; */
+    background-color:var(--background-color-second);
+}
+
+.teams{
+    display: flex;
+    
+}
+.item-teams{
+margin-right: 30px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.item-teams:last-child{
+    margin-right: 0;
+}
+
+
+.section-title-name{
+    margin: 0;
+    margin-bottom: 10px;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    
+    }
+
+.section-title-work-pozition{
+    margin: 0;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+}
+.item-text{
+padding: 30px 0;
+}
+
+/* Footer */
+
+.footer{
+    padding: 60px 0;
+    background-color: var(--background-color-futer);
+    /* text-align: left; */
+}
+.address-footer{
+    margin-top: 20px;
+}
+
+.address-item{
+    margin-bottom: 10px;
+}
+.address-item:last-child {
+    margin-bottom: 0;
+}
+
+.logo-studio{
+color: var(--background-color);
+}
+
+.adres{
+    /* padding-top: 20px;
+    padding-bottom: 60px; */
+}
+.footer-adress{
+
+color: var(--background-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+font-style: normal;
+}
+.footer-contacts{
+
+color: rgba(255, 255, 255, 0.6);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+}
+
+.footer-adress:hover,
+.footer-adress:focus{
+color: var(--accent-color);
+}
+.footer-contacts:hover,
+.footer-contacts:focus{
+color: var(--accent-color);
+}
+
+/* ================Портфоліо=================*/
+
+.imput{
+    display: block;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.item-works{
+    margin-right: 8px;
+}
+.item-works:last-child{
+    margin-right: 0;
+}
+
+.button-works{
+display: inline-block;
+padding: 6px 25px;
+color: var(--title-text-color);
+background-color: #F5F4FA;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+border-radius: 4px;
+border: 1px solid transparent;
+}
+
+.one{
+min-width: 73px;
+}
+.two{
+min-width: 125px;
+}
+.three{
+min-width: 112px;
+}
+.four{
+min-width: 103px;
+}
+.five{
+min-width: 130px;
+}
+
+.button-works:hover,
+.button-works:focus{
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.title-works{
+    margin-bottom: 4px ;
+margin-left: auto;
+display: block;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: var(--title-text-color)
+}
+
+.title-works-text{
+    display: block;
+    margin: 0;
+font-size: 16px;
+line-height: 1.9;
+}
+
+.products-text{
+padding: 20px 24px;
+border: 1px solid #EEEEEE ;
+}

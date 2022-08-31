@@ -394,7 +394,61 @@ color: var(--accent-color);
 
 .join{
     display: flex;
+    display: inline-block;
 }
+.join-site{
+    display: flex;
+}
+
+.join-instagram{
+    display: inline-block;
+width: 44px;
+height: 44px;
+background-color: #2F303A;
+background-image: url(../images/css_images/socialsite/instagram.png);
+background-size: 20px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+.join-instagram.join-twitter.join-feecbook.join-linkedin:hover{
+    background-color: var(--accent-color);
+}
+
+.join-twitter{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-color: tomato;
+    background-image: url(../images/css_images/socialsite/twitter.png);
+    background-size: 20px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+.join-feecbook{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-color: tomato;
+background-image: url(../images/css_images/socialsite/facebook.png);
+    background-size: 20px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+.join-linkedin{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background-color: tomato;
+background-image: url(../images/css_images/socialsite/linkedin.png);
+    background-size: 20px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+
 
 
 /* ================Портфоліо=================*/

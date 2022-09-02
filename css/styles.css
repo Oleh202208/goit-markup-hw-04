@@ -129,6 +129,11 @@ color: var(--accent-color);
 .contacts-nav .item + .item{
     margin-left: 50px;
 }
+.icon-mail{
+    margin-right: 10px;
+    position: center;
+    
+}
 
 
 .contacts-nav .link{
@@ -152,7 +157,6 @@ padding-top: 94px;
 .service-title{
     width: 696px;
     margin: 0 auto;
-    /* margin-top: 0; */
     margin-bottom: 30px;
 color: #FFFFFF;
 font-weight: 900;
@@ -337,6 +341,39 @@ text-align: center;
 }
 .item-text{
 padding: 30px 0;
+}
+
+
+/* =====socials===== */
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+.socials-link{
+ display: flex;
+align-items: center;
+justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color:var(--background-color);
+    border-radius: 50%;
+    color: #AFB1B8;
+    background-color: var(--background-color)
+    
+}
+.socials-link:hover {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+/* .social-icon{
+    fill: #AFB1B8;
+} */
+.social-icon{
+    fill: currentColor;
 }
 
 /* Footer */

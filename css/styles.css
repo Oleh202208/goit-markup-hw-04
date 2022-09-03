@@ -122,6 +122,7 @@ color: var(--accent-color);
 }
 
 /* contacts-nav */
+
 .contacts-nav{
     display: flex;
     margin-left: auto;
@@ -129,30 +130,38 @@ color: var(--accent-color);
 .contacts-nav .item + .item{
     margin-left: 50px;
 }
-.icon-mail{
-    margin-right: 10px;
-    position: center;
-    
+.item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+justify-content: center;
+}
+.contacts-link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+justify-content: center;
 }
 
+.contacts-icon{
+    fill: currentColor;
+}
 
-.contacts-nav .link{
+.contacts-nav .contacts-link{
     color: var(--primary-text-color);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.2;
 text-decoration: none;
 }
-.contacts-nav .link:hover, 
-.contacts-nav .link:focus{
+.contacts-nav .contacts-link:hover, 
+.contacts-nav .contacts-link:focus{
     color: var(--accent-color);
 }
 
 
-/* Замовити послугу Hero */
-/* .title-hero{
-padding-top: 94px;
-} */
+/*======Замовити послугу Hero====== */
+
 
 .service-title{
     width: 696px;
@@ -365,7 +374,8 @@ justify-content: center;
     background-color: var(--background-color)
     
 }
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
 }

@@ -498,13 +498,10 @@ gap: 70px;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-
-/* =======Social Footer */
-
 
 .footersoc-link{
  display: flex;
@@ -521,10 +518,6 @@ justify-content: center;
 .footersoc-link:focus {
 background-color: var(--accent-color);
 }
-
-/* .fotersoc-icon{
-    fill: currentColor;
-} */
 
 
 

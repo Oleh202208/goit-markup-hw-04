@@ -6,7 +6,7 @@
     --background-color-second: #F5F4FA;
     --background-color-futer: #2F303A;
     --color-logo: #000000;
-
+    --color-icons: #AFB1B8;
 }
 body{
     background-color: var(--background-color);
@@ -370,7 +370,7 @@ justify-content: center;
     height: 44px;
     background-color:var(--background-color);
     border-radius: 50%;
-    color: #AFB1B8;
+    color: var(--color-icons);
     background-color: var(--background-color)
     
 }
@@ -386,7 +386,44 @@ justify-content: center;
     fill: currentColor;
 }
 
-/* Footer */
+/*============ Постійні клієнти========== */
+
+.our-customers{
+    padding-top: 74px;
+}
+.customers{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 94px;
+}
+    
+.customers-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    color: var(--color-icons);
+    fill: var(--color-icons);
+    background-color: var(--background-color);
+    border: 1px solid var(--color-icons);
+    border-radius: 4px;
+}
+.customers-link:hover,
+.customers-link:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.customers-icon{
+    fill: currentColor;
+}
+
+
+
+
+/* ===========Footer=========== */
 
 .footer{
     padding: 60px 0;

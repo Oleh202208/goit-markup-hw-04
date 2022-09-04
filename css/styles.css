@@ -206,14 +206,13 @@ cursor: pointer;
 
 }
 
-/* Переваги, advances*/
+/* ==========Переваги, advances========*/
 
 .section{
     padding: 94px 0;
 }
 
 .advances-text .item{
-
     width: 270px;
     /* gap: 30px; */
 }
@@ -281,14 +280,15 @@ margin-right: 0;
     font-size: 14px;
     }
 
-/* Чим займаємося */
+
+/* ===========Чим займаємося========== */
+
 .section-affairs{
     padding-top: 0;
 }
 
 .affairs{
     display: flex;
-    /* margin-bottom: 94px; */
 }
 .item-affairs{
     margin-right: 30px;
@@ -307,10 +307,9 @@ line-height: 1.7;
 text-align: center;
 }
 
-/* Команда */
+/* =======Команда========= */
 
 .team{
-    /* padding-bottom: 0; */
     background-color:var(--background-color-second);
 }
 
@@ -376,9 +375,7 @@ justify-content: center;
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
-/* .social-icon{
-    fill: #AFB1B8;
-} */
+
 .social-icon{
     fill: currentColor;
 }

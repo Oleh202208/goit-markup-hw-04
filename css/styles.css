@@ -61,7 +61,7 @@ list-style: none;
     /* background-color: blueviolet; */
 }
 
-/* Header */
+/*========== Header======== */
 
 
 .header{
@@ -111,13 +111,12 @@ list-style: none;
 
 }
 
-
 .site-nav .link:hover, 
 .site-nav .link:focus{
     color: var(--accent-color);
 }
 
-.site-link .current{
+.site-nav .link .current{
 color: var(--accent-color);
 }
 
@@ -183,7 +182,7 @@ text-transform: uppercase;
     padding: 200px 0;
     background-repeat: no-repeat;
     background-position: center;
-
+    margin: 0 auto;
 
 }
 
@@ -342,7 +341,7 @@ border-radius: 0px 0px 4px 4px;
     }
 
 .section-title-work-pozition{
-    margin: 0;
+    margin-bottom: 16px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.2;
@@ -358,9 +357,7 @@ padding: 30px 0;
 .socials{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 10px;
-    padding-bottom: 30px;
 }
 .socials-link{
  display: flex;
@@ -389,14 +386,11 @@ justify-content: center;
 /*============ Постійні клієнти========== */
 
 .our-customers{
-    padding-top: 74px;
+    padding: 94px 0;
 }
 .customers{
     display: flex;
     gap: 30px;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 94px;
 }
     
 .customers-link{
@@ -406,7 +400,6 @@ justify-content: center;
     width: 170px;
     height: 92px;
     color: var(--color-icons);
-    fill: var(--color-icons);
     background-color: var(--background-color);
     border: 1px solid var(--color-icons);
     border-radius: 4px;
@@ -480,15 +473,17 @@ color: var(--accent-color);
 
 .footer-container{
     display: flex;
-gap: 70px;
+    align-items: baseline;
 }
 .join-site{
+    display: flex;
+    gap: 10px;
     margin: 0;
     padding: 0;
 }
 .footer-social{
-    display: flex;
-    gap: 10px;
+    margin-left: 70px;
+
 }
 
 .join-text{
@@ -573,6 +568,7 @@ min-width: 130px;
 .button-works:focus{
     color: var(--background-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .imgs{

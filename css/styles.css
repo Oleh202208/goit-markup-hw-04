@@ -116,7 +116,7 @@ list-style: none;
     color: var(--accent-color);
 }
 
-.site-nav .link .current{
+.item .current{
 color: var(--accent-color);
 }
 
